@@ -3,7 +3,7 @@ grunt学习
 
 1. 安装nodejs
 ---------------------------------
-	Grunt和所有grunt插件都是基于nodejs来运行的，去 https://nodejs.org/下载后直接下一步下一步下一步至安装完成。
+	Grunt和所有grunt插件都是基于nodejs来运行的，去 https://nodejs.org/下载安装完成。
 
 　　安装了nodejs之后，可以在你的控制台中输入“node -v”来查看nodejs的版本，也顺便试验nodejs是否安装成功。
 
@@ -17,7 +17,7 @@ grunt学习
 ----------------------------------
 	新建package.json和Gruntfile.js文件
 
-	### package.json文件模板
+	# package.json文件模板
 	{
 	  "name": "grunt-demo",
 	  "version": "1.0.0",
@@ -27,7 +27,7 @@ grunt学习
 	  }
 	}
 
-	### Gruntfile.js模板
+	# Gruntfile.js模板
 	module.exports = function (grunt) {
 		// 任务配置，所有插件的配置信息
 		grunt.initConfig({
