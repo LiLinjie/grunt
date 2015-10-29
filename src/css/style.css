@@ -1,0 +1,18 @@
+body{
+	background: #000;
+}
+.m-nav{ margin: 0; height: 52px; text-align: center; overflow: hidden; background: #000;}
+.m-nav li{ display: inline-block;width: 127px;}
+.m-nav li a{ display: block; height: 52px; padding: 0 11px 0 8px; line-height: 52px; color: #fff; text-align: left; font-size: 14px; text-decoration: none;}
+.m-nav li a .icon{ display: inline-block; margin-right: 13px; width: 32px; height: 32px; vertical-align: middle;}
+
+.icon-search{ display: inline-block; width: 20px; height: 21px; background: url(../images/icon_04.png);}
+.icon-search2{ display: inline-block; width: 20px; height: 21px; background: url(../images/icon_06.png);}
+.icon-open-screen{ background: url(../images/icon_03.png);}
+.icon-close-screen{ background: url(../images/icon_05.png);}
+.icon-restart-equip{ background: url(../images/icon_07.png);}
+.icon-save-scene{ background: url(../images/icon_09.png);}
+.icon-scene-carousel{ background: url(../images/icon_11.png);}
+.icon-signal-carousel{ background: url(../images/icon_13.png);}
+.icon-program-manage{ background: url(../images/icon_15.png);}
+.icon-system-manage{ background: url(../images/icon_17.png);}
