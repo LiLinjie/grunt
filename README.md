@@ -17,7 +17,7 @@ grunt学习
 ----------------------------------
 	新建package.json和Gruntfile.js文件
 
-	# package.json文件模板
+	### package.json文件模板
 	{
 	  "name": "grunt-demo",
 	  "version": "1.0.0",
@@ -27,7 +27,7 @@ grunt学习
 	  }
 	}
 
-	# Gruntfile.js模板
+	### Gruntfile.js模板
 	module.exports = function (grunt) {
 		// 任务配置，所有插件的配置信息
 		grunt.initConfig({
